@@ -12,4 +12,8 @@ public class OrderService {
     public void deleteOrder() {
         System.out.println("Deleting an order...");
     }
+
+    public void processOrder() {
+        System.out.println("Processing an order...");
+    }
 }
